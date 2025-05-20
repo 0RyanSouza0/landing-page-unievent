@@ -22,16 +22,18 @@
               <img src="assets/images/logo.svg" alt="Logo" />
             </div>
             <div class="navegacao">
-              <a href="/">Sobre</a>
-              <a href="/">Aplicativo</a>
-              <a href="/">Integrantes</a>
+              <a href="#header-sobre">Sobre</a>
+              <a href="#aplicativo">Aplicativo</a>
+              <a href="#integrantes">Integrantes</a>
             </div>
             <div class="github">
-              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/0RyanSouza0/landing-page-unievent" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
             </div>
           </nav>
         </div>
-        <section class="header-sobre">
+        <section class="header-sobre" id="header-sobre">
           <div class="container-texto">
             <p>DESCUBRA, CONECTE E PARTICIPE!</p>
             <p class="sobre-app">
@@ -53,7 +55,7 @@
       </div>
     </header>
 
-    <section class="app">
+    <section class="app" id="aplicativo">
       <img src="assets/images/letrabranca.svg " alt="" />
       <p>TELAS</p>
 
@@ -83,39 +85,72 @@
           <img src="assets/images/Profile.svg" alt="foto 8" />
         </div>
       </div>
-
-      <!-- <div class="carousel">
-        <button class="prev">&#10094;</button>
-
-        <div class="carousel-track-container">
-          <ul class="carousel-track">
-            <li class="carousel-slide">
-              <img src="assets/images/Intro.svg" alt="Imagem 1" />
-            </li>
-            <li class="carousel-slide">
-              <img src="assets/images/Home.svg" alt="Imagem 2" />
-            </li>
-            <li class="carousel-slide">
-              <img src="assets/images/Sign Up.svg" alt="Imagem 3" />
-            </li>
-            <li class="carousel-slide">
-              <img src="assets/images/Sign in.svg" alt="Imagem 4" />
-            </li>
-            <li class="carousel-slide">
-              <img src="assets/images/fotodetalhevento.svg" alt="Imagem 5" />
-            </li>
-          </ul>
-        </div>
-
-        <button class="next">&#10095;</button>
-      </div> -->
     </section>
 
-    <section class="integrantes">
+    <section class="integrantes" id="integrantes">
       <img src="assets/images/letrabranca.svg " alt="" />
       <h2>INTEGRANTES</h2>
 
-    
+      <div class="div-container-integrantes">
+        <div class="card-integrantes">
+          <img src="assets/images/foto claudio.jpeg" alt="foto-claudio">
+          <div class="logo-images">
+            <a href="https://github.com/ClaudioRodri" target="_blank">
+              <img src="assets/images/github-logo.svg" alt="logo-github">
+            </a>
+            <a href="https://www.linkedin.com/in/claudio-rodrigues-" target="_blank">
+              <img src="assets/images/linkedin-logo.svg" alt="logo-linkedin">
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-integrantes">
+          <img src="assets/images/foto levi.jpg" alt="foto-levi">
+          <div class="logo-images">
+            <a href="https://github.com/RedFoX1029" target="_blank">
+              <img src="assets/images/github-logo.svg" alt="logo-github">
+            </a>
+            <a href="https://www.linkedin.com/in/levi-nicola-803037258/" target="_blank">
+              <img src="assets/images/linkedin-logo.svg" alt="logo-linkedin">
+            </a>
+          </div>
+        </div>
+        
+        <div class="card-integrantes ryan">
+          <img src="assets/images/perfil.jpg" alt="foto-ryan">
+          <div class="logo-images">
+            <a href="https://github.com/0RyanSouza0" target="_blank">
+              <img src="assets/images/github-logo.svg" alt="logo-github">
+            </a>
+            <a href="https://www.linkedin.com/in/ryan-dias-367813300/" target="_blank">
+              <img src="assets/images/linkedin-logo.svg" alt="logo-linkedin">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-contato">
+
+      <div class="div-imagem">
+        <img src="assets/images/sobre1.svg" alt="logo-image" class="logo-image-contato">
+      </div>
+
+
+      <div class="div-contato">
+        <p class="contate_nos">Contate-nos</p>
+  
+        <p class="label-nome">Seu nome completo</p>
+        <input class="input-nome" placeholder="Digite seu nome">
+  
+        <p class="label-email">Seu Email</p>
+        <input class="input-email" placeholder="Digite seu email">
+  
+        <p class="label-contato">Dúvidas, sugestões ou reclamações</p>
+        <textarea class="texto-mensagem" placeholder="Digite sua mensagem" minlength=20 maxlength=500 rows=10 cols=50></textarea>
+      
+        <button class="bottao-enviar">Enviar</button>
+      </div>
     </section>
 
     <footer>
