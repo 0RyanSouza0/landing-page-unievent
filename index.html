@@ -137,20 +137,20 @@
       </div>
 
 
-      <div class="div-contato">
+      <form class="div-contato" action="/" method="post">
         <p class="contate_nos">Contate-nos</p>
   
-        <p class="label-nome">Seu nome completo</p>
-        <input class="input-nome" placeholder="Digite seu nome">
+        <p class="label-nome" for="nome">Seu nome completo</p>
+        <input class="input-nome" placeholder="Digite seu nome" type="text" name="nome" required>
   
-        <p class="label-email">Seu Email</p>
-        <input class="input-email" placeholder="Digite seu email">
+        <p class="label-email" for="email">Seu Email</p>
+        <input class="input-email" placeholder="Digite seu email" type="email" name="email" required>
   
-        <p class="label-contato">Dúvidas, sugestões ou reclamações</p>
-        <textarea class="texto-mensagem" placeholder="Digite sua mensagem" minlength=20 maxlength=500 rows=10 cols=50></textarea>
+        <p class="label-contato" for="mensagem">Dúvidas, sugestões ou reclamações</p>
+        <textarea class="texto-mensagem" placeholder="Digite sua mensagem" minlength=10 maxlength=500 rows=10 cols=50 type="text" name="mensagem" required></textarea>
       
-        <button class="bottao-enviar">Enviar</button>
-      </div>
+        <button class="bottao-enviar" type="submit">Enviar</button>
+      </form>
     </section>
 
     <footer>
